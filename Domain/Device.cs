@@ -15,7 +15,7 @@ namespace Domain
         [Required]
         public string Name { get; set; } = null!;
 
-
+        [Required]
         public int UserId { get; set; }
     }
 }
